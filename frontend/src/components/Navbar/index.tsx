@@ -25,18 +25,18 @@ function Navbar() {
                             <Link href="/products"className="block py-2 px-3 text-white rounded hover:bg-[#800020] md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 "> Productos </Link>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 px-3 text-white rounded hover:bg-[#800020] md:hover:bg-transparent md:border-0  md:hover:text-gray-300 md:p-0 ">
-                                Mi Perfil
-                            </a>
-                        </li>
-                        <li>
                             <a href="#" className="block py-2 px-3 text-white rounded hover:bg-[#800020] md:hover:bg-transparent md:border-0 md:hover:text-gray-300  md:p-0 ">
-                                Sobre Nosotros
+                                Servicios
                             </a>
                         </li>
                         <li>
                             <a href="#" className="block py-2 px-3 text-white rounded hover:bg-[#800020] md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0 ">
                                 Contactanos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="block py-2 px-3 text-white rounded hover:bg-[#800020] md:hover:bg-transparent md:border-0  md:hover:text-gray-300 md:p-0 ">
+                                Mi Perfil
                             </a>
                         </li>
                     </ul>
