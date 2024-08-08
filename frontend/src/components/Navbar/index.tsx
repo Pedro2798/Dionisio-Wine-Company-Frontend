@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -21,7 +23,7 @@ function Navbar() {
   const handleLogout = async () => {
     try {
       // Redirigir al endpoint de logout de Auth0
-      window.location.href = '/api/auth/logout'; // Esto redirige al endpoint de logout de Auth0
+      window.location.href = '/api/auth/logout';
     } catch (error) {
       console.error('Error during logout:', error);
     }
@@ -81,10 +83,9 @@ function Navbar() {
                 </Link>
               ) : (
                 <></>
-
               )}
             </li>
-              
+
             {!isAdmin && (
               <li>
                 <div className="flex items-center px-4">
