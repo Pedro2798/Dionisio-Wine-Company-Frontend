@@ -214,7 +214,7 @@ const AdminDashboard: React.FC = () => {
       fetchCategories(); // Recargar la lista de categorías después de eliminar una
     } catch (error) {
       console.error('Error al eliminar categoría:', error);
-      Swal.fire('Error', 'Hubo un problema al eliminar la categoría', 'error');
+      Swal.fire('Error', 'Hubo un problema al eliminar la categoría. Solo se podrán eliminar categorías que no tengan productos creados.', 'error');
     }
   };
   
